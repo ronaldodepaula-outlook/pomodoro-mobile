@@ -1,6 +1,6 @@
 // Lightweight fetch-based API wrapper to avoid axios bundling issues in Expo
 // Adjust this base URL to your backend (use device IP when testing on a real device)
-const API_BASE = process.env.REACT_APP_API_URL || 'http://192.168.1.9:8000/api';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://rdpsolutions.online/pomodoro-api/public/api';
 
 let authToken: string | null = null;
 

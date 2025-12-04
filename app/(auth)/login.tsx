@@ -42,6 +42,8 @@ const LoginScreen: React.FC = () => {
         placeholder="Email"
         value={email}
         onChangeText={setEmail}
+        autoCapitalize="none"
+        keyboardType="email-address"
         editable={!loading}
       />
 
